@@ -43,3 +43,7 @@ alias cl=clear
 ```sh
 alias mostused='history | awk '\''{print $2}'\'' | sort | uniq -c | sort -nr | head -n 10'
 ```
+| Alias  | Código   | Descripción |
+|--------|----------|-------------|
+|cl      |clear     |Limpiar terminal |
+|mostused|history...|Comandos más usados |
